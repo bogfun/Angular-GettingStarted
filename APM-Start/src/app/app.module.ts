@@ -6,7 +6,6 @@ import {InMemoryDataService} from './in-memory-data.service';
 
 import {AppComponent} from './app.component';
 import {ProductListComponent} from './products/product-list.component';
-import {TransactionListComponent} from './transactions/transaction-list.component';
 import {ConvertToSpacesPipe} from './shared/convert-to-spaces.pipe';
 import {StarComponent} from './shared/star.component';
 
@@ -17,7 +16,6 @@ import {HttpClientInMemoryWebApiModule} from 'angular-in-memory-web-api';
   declarations: [
     AppComponent,
     ProductListComponent,
-    TransactionListComponent,
     ConvertToSpacesPipe,
     StarComponent
   ],
